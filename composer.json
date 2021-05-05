@@ -16,7 +16,6 @@
     "ext-curl": "*",
     "ext-json": "*",
     "ext-zip": "*",
-    "symfony/polyfill-mbstring": "^1.12",
     "symfony/process": "^2.8 || ^3.1 || ^4.0 || ^5.0"
   },
   "replace": {
@@ -33,7 +32,9 @@
     "symfony/var-dumper": "^3.3 || ^4.0 || ^5.0"
   },
   "suggest": {
-    "ext-SimpleXML": "For Firefox profile creation"
+    "ext-SimpleXML": "For Firefox profile creation",
+    "ext-mbstring": "*",
+    "symfony/polyfill-mbstring": "^1.12"
   },
   "config": {
     "sort-packages": true
